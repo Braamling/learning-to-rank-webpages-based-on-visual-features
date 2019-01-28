@@ -1,0 +1,6 @@
+h5py==2.8.0
+pandas
+numpy
+torch==0.4.1
+torchvision==0.2.1
+tensorboard-logger==0.1.0

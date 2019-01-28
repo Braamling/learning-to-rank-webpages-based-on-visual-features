@@ -1,0 +1,12 @@
+.DS_Store
+*/__pycache__/*
+storage/*
+.idea
+paper/cikm2018-visual-ltr.aux
+paper/cikm2018-visual-ltr.bbl
+paper/cikm2018-visual-ltr.blg
+paper/cikm2018-visual-ltr.dvi
+paper/cikm2018-visual-ltr.log
+paper/cikm2018-visual-ltr.out
+paper/cikm2018-visual-ltr.pdf
+venv/*
