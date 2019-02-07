@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2559229.svg)](https://doi.org/10.5281/zenodo.2559229)
+
 # Learning to Rank Webpages Based on Visual Features
 This repository contains the code required to reproduce the results described in the The Web Conference 2019 paper "Learning to Rank Webpages Based on Visual Features" by Bram van den Akker, Ilya Markov and Maarten de Rijke. The implementation has been written by Bram van den Akker.  
 
