@@ -57,3 +57,9 @@ The full ViTOR dataset can be downloaded [here](https://drive.google.com/open?id
 
 - The used saliency images can be downloaded [here](https://drive.google.com/open?id=1s286YhW0aC7qORUjpwR48tvUVUTz_OIM) (451mb)
 - The actual HTML used to create the features can be requested [here](https://lemurproject.org/clueweb12/)
+
+### Sources
+- The contextual features and a subset of the screenshots are based on the documents in [ClueWeb12](https://lemurproject.org/clueweb12/)
+- The relevance labels are taken from [TREC Web 2013](https://trec.nist.gov/data/web2013.html) & [TREC Web 2014](https://trec.nist.gov/data/web2014.html)
+- A large subset of the screenshots have been taken from the [Internet Achive's Wayback Machine](https://archive.org/web/)
+
