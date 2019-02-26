@@ -1,4 +1,6 @@
 ### The ViTOR Dataset
+*Disclaimer: This dataset contains copyrighted material the use of which has not always been specifically authorized by the copyright owner. We are making such material available to enable research efforts in Information Retrieval. We believe this constitutes a 'fair use' of any such copyrighted material as provided in Section 107 of the US Copyright Law. In accordance with Title 17 U.S.C. Section 107, the material in this dataset is distributed without profit to those who have expressed a prior interest in receiving the included information for research and educational purposes. If you wish to use copyrighted material in this dataset for purposes of your own that go beyond fair use, you must obtain permission from the copyright owner.*
+
 ##### [jump to downloads](https://github.com/Braamling/learning-to-rank-webpages-based-on-visual-features/blob/master/dataset.md#download-vitor)
 The ViTOR dataset consists of the contextual features, snapshots and highlighted snapshots used in `Learning to Rank Webpages Based on Visual Features by B. van den Akker et al.`. The data is organized as described below. The Saliency images can either be used seperately 
 
