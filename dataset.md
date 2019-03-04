@@ -5,8 +5,6 @@
 The ViTOR dataset consists of the contextual features, snapshots and highlighted snapshots used in `Learning to Rank Webpages Based on Visual Features by B. van den Akker et al.`. The data is organized as described below. The various directories can be downloaded separately. 
 ```
 ViTOR
-│   README.txt  
-│
 └───features
 │   │   normalized_set
 │   │   Full_set
@@ -52,10 +50,28 @@ ViTOR
 
 ```
 
-### Download ViTOR
-The full ViTOR dataset can be downloaded [here](https://drive.google.com/open?id=1afPX7fHmN6l4BUAJzj_CD3iSY7Ahk5Us) (21gb). The contextual features can also be downloaded seperately [here](https://drive.google.com/open?id=1Erp_GyY0-H9XQfDon4yasUG62xV5LKpG) (9mb). The used saliency images can be downloaded [here](https://drive.google.com/open?id=1s286YhW0aC7qORUjpwR48tvUVUTz_OIM)(451mb).
+Each directory is filled as follows.
 
-TODO: Seperate the ViTOR dataset into highlights and vanilla snapshots.
+#### Features 
+The `features` directory contains LETOR style formatted files with all document judgements and feature scores. The folder has 5 fold-partitions, which are used to create 5 folds that were used in the paper. The non-normalized features are included for reference. 
+ 
+#### Snapshots
+The `snapshots` directory contains the vanilla snapshots (a total of 28,488). Each images is indentified by its clueweb12 doc id (<CLUEBWEBID>.png)
+
+#### Highlights 
+The `highlights` directory contains the snapshots with their query depended red highlights (a total of 28,655). Each image is indentify with its TREC query id and clueweb12 doc id (<QUERYID>-<CLUEWEBID>.png).
+
+
+#### Saliency 
+The `saliency` directory contains the automatically generated saliency heatmaps (a total of 28,488). Each images is indentified by its clueweb12 doc id (<CLUEBWEBID>.png).
+
+
+### Download ViTOR
+Each of the directories can be downloaded separately: 
+- [Features](https://drive.google.com/open?id=1Y9u-ADvM1mZH0-W8hWL4qdNfC3ONt-mE) (9mb). 
+- [Snapshot images](https://drive.google.com/open?id=1KiurYA8_8tLNvx6xgjiteDpnUVbocOHf) (11gb).
+- [Highlights images](https://drive.google.com/open?id=1BOdIu0FIC7X2PMfvvRzWJgZZ2wMXTt_S) (10gb).
+- [Saliency images](https://drive.google.com/open?id=1xqNkuzrDQsUsAokM5Yi5t_--UCkz_1un) (451mb).
 
 ### Sources
 - The contextual features and a subset of the screenshots are based on the documents in [ClueWeb12](https://lemurproject.org/clueweb12/).
