@@ -3,6 +3,9 @@
 # Learning to Rank Webpages Based on Visual Features
 This repository contains the code required to reproduce the results described in the The Web Conference 2019 paper "Learning to Rank Webpages Based on Visual Features" by Bram van den Akker, Ilya Markov and Maarten de Rijke. The implementation has been written by Bram van den Akker.  
 
+# Dataset
+The dataset can be found [here](https://github.com/Braamling/learning-to-rank-webpages-based-on-visual-features/blob/master/dataset.md).
+
 # Preprocessing
 The code for the preprocessing can be found in three separate repositories. 
 
