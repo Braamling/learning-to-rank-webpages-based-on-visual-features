@@ -2,8 +2,7 @@
 *Disclaimer: This dataset may contain copyrighted material the use of which has not always been specifically authorized by the copyright owner. We are making such material available to enable research efforts in Information Retrieval. We believe this constitutes a 'fair use' of any such copyrighted material. The material in this dataset is distributed without profit to those who have expressed a prior interest in receiving the included information for research and educational purposes. We have provided links to certain datasets for reference purposes only and on an  ‘as is’ basis. You are solely responsible for your use of the datasets and for the complying with applicable terms and conditions, including any use restrictions and attribution requirements. We shall not be liable for, and specifically disclaim any warranties, express or implied, in connection with, the use of the datasets, including any warranties of fitness for a particular purpose or non-infringement.*
 
 ##### [jump to downloads](https://github.com/Braamling/learning-to-rank-webpages-based-on-visual-features/blob/master/dataset.md#download-vitor)
-The ViTOR dataset consists of the contextual features, snapshots and highlighted snapshots used in `Learning to Rank Webpages Based on Visual Features by B. van den Akker et al.`. The data is organized as described below. The Saliency images can either be used seperately 
-
+The ViTOR dataset consists of the contextual features, snapshots and highlighted snapshots used in `Learning to Rank Webpages Based on Visual Features by B. van den Akker et al.`. The data is organized as described below. The various directories can be downloaded separately. 
 ```
 ViTOR
 │   README.txt  
@@ -39,6 +38,10 @@ ViTOR
 │       │   vali.txt
 │   
 └───snapshots
+    │   clueweb12-0000tw-00-02137.png
+    │   clueweb12-0000tw-01-09567.png
+    │   ...
+└───saliency
     │   clueweb12-0000tw-00-02137.png
     │   clueweb12-0000tw-01-09567.png
     │   ...
